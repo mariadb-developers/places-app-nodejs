@@ -22,13 +22,11 @@ This README will walk you through the steps for getting the `Places` web applica
 # Table of Contents
 1. [Requirements](#requirements)
 2. [Getting started with MariaDB and JSON](#mariadb)
-2. [Get the code](#code)
+3. [Get the code](#code)
 4. [Configure, build and run the apps](#app)
     1. [Configure](#configure-api-app)
-    2. [Create and activate a Python virtual environment](#activate-virtual-env)
-    3. [Install Python packages](#install-python-packages)
-    4. [Build and run the Python API app](#build-run-api)
-    5. [Build and run the Client app](#build-run-client)
+    2. [Build and run the Node.js API app](#build-run-api)
+    3. [Build and run the Client app](#build-run-client)
 5. [JSON Data Models](#data-models)
 6. [Support and contribution](#support-contribution)
 7. [License](#license)
@@ -130,7 +128,7 @@ var pool = mariadb.createPool({
 });
 ```
 
-### b.) Build and run the app <a name="build-run-api"></a>
+### b.) Build and run the Node.js API app <a name="build-run-api"></a>
 
 To start and run the API application you need to execute the following commands within the [api root folder](src/api).
 
@@ -146,11 +144,11 @@ $ npm install
 $ npm start
 ``` 
 
-### c.) Build and run the [UI (Client) app](src/client) <a name="build-run-client"></a>
+### c.) Build and run the [UI (Client) app](https://github.com/mariadb-developers/places-app-client) <a name="build-run-client"></a>
 
-Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the [client](src/client) folder of this repo.
+Once the API project is running you can now communicate with the exposed endpoints directly (via HTTP requests) or with the application UI, which is contained with the `client` folder of this repo.
 
-To start the [client](src/client) application follow the instructions [here](https://github.com/mariadb-developers/places-app-client).
+To start the `client` application follow the instructions [here](https://github.com/mariadb-developers/places-app-client).
 
 ## JSON Data Models <a name="data-models"></a>
 
