@@ -1,6 +1,6 @@
 # Places
 
-**Places** is a web application backed by the power of the power, performance, and simplicity of [MariaDB](https://mariadb.com/), allows you to record all of your favorite locations using both structured (relational) and semi-structured (JSON) data!
+**Places** is a web application backed by the power, performance, and simplicity of [MariaDB](https://mariadb.com/), allows you to record all of your favorite locations using both structured (relational) and semi-structured (JSON) data!
 
 <p align="center" spacing="10">
     <kbd>
